@@ -1,0 +1,33 @@
+---
+title: "Cyclistic Bike"
+author: "Schuler"
+date: "2024-09-01"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## R Markdown
+
+This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+
+
+# Data Set consisted of .csv files from 1st Qtr 2019 & 2020, data is liscesned for public use.
+# To work with data
+```{r}
+install.packages("tidyverse")
+library(tidyverse)
+library(conflicted)
+```
+#Enable the read_csv function with this package
+```{r}
+install.packages("readr")
+library(readr)
+```
+#Enable the rename fuction in rstudio
+```{r}
+install.packages("dplyr")
+library(dplyr)
+```
